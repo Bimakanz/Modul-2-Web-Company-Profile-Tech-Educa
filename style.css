@@ -1,0 +1,273 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+} 
+
+.container3 {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: darkblue;
+} 
+
+.container1{
+    width: 85%;
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+nav a:hover{
+    color: #fdc938;
+}
+
+header .logo h1 {
+    color: #004aad;
+    display: inline-block
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+  list-style-type: none;  
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 0px;
+    
+    
+}
+
+header nav ul li a {
+    text-decoration:none;
+    color: #333;
+    margin: 15px;
+    
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(9, 5, 54, 0.3),
+    rgba(5, 4, 46, 0.7)), url('back1.jpg') no-repeat center center/cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.hero h2 {
+    font-size: 60px;
+    margin-bottom: 1+   px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #004aad;
+}
+
+.btn-secondary {
+    background-color: #f39c12;
+}
+
+/* Features Section */
+.features {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+    padding-top: 8em;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    justify-items: left;    
+}
+
+.feature-item {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px 0;
+    text-align: center;
+    padding-top: 8em;
+}
+
+.courses h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-item h3 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.course-item .price {
+    color: #f39c12;
+    font-size: 22px;
+    font-weight: bold;
+}
+footer .COPYRIGHT{
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 25px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50000px;
+    margin-right: 50px;
+    
+}
+.container course-item{
+    justify-content: left;
+}
+.bintang{
+    color: orange;
+}
+.course-list{
+    text-align: left;
+}
+.feature-item img{
+    display: flex;
+    align-items: left;
+    width: 50px;
+}
+.course-item p{
+    text-align: left;
+}
+.feature-item{
+    text-align: left;
+}
+.replenish h3{
+    padding: 0px;
+    margin: 15px;
+    color: #3d4352;
+    letter-spacing:3px ;
+
+}
+.coursess h2{
+    color: darkblue;
+}
+.cta-buttons .btn btn-primary{
+    background-color: #d6ad4e;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.cta-buttons .btn-primary:hover {
+    background-color: #ffffff;
+    color: #002e5e;
+}
+
+.cta-buttons .btn .btn-secondary{
+    background-color: #002e5e;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 5px;
+}
+
+.cta-buttons .btn-secondary:hover{
+    background-color: #ffffff;
+    color: #d6ad4e;
+}
+.course-item p{
+    color: gray;
+}
